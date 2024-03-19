@@ -1,7 +1,7 @@
 /*     ----- RESET -----      */
 * {box-sizing: border-box; margin: 0; padding: 0;}
 img {max-width: 100%;height: auto;}
-body {background-color: #a5a5a5; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {background-color: rgb(220, 231, 236); font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .container {width: 1160px; margin: 0 auto;}
 .divider {padding: 25px 0;}
 .spacer {padding: 75px 0;}
@@ -9,3 +9,21 @@ body {background-color: #a5a5a5; font-family: Verdana, Geneva, Tahoma, sans-seri
 /* -------------------------
             header
 -------------------------- */
+
+.logo {
+    padding: 15px 30px 15px 30px;
+    height: 90px;
+    background-color: white;
+}
+
+img {
+    height: 100%;
+}
+
+.text-logo {
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+img, .text-logo {vertical-align: middle;}
