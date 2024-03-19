@@ -80,6 +80,7 @@ img, .text-logo {vertical-align: middle;}
 .container .todo-list {
     margin-top: 5px;
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 li.title {
@@ -89,7 +90,9 @@ li.title {
 }
 
 ul {
+    margin-bottom: 35px;
     list-style-type: none ;
+    margin-left: 30px;
 }
 
 li {
@@ -131,3 +134,7 @@ li {
 .recruiting {background-color: rgb(99, 191, 168);}
 
 .mobile {background-color: rgb(242, 159, 63);}
+
+.website {background-color: rgb(217, 100, 162);}
+
+.sales {background-color: rgb(176, 201, 60);}
