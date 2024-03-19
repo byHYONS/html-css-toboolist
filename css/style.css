@@ -73,3 +73,61 @@ img, .text-logo {vertical-align: middle;}
     color: rgb(201, 206, 212);
     border: 2px solid rgb(201, 206, 212);
 }
+
+/* -------------------------
+        TODO LIST
+-------------------------- */
+.container .todo-list {
+    margin-top: 5px;
+    padding: 30px;
+}
+
+li.title {
+    margin-top: 30px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none ;
+}
+
+li {
+    margin-top: 20px;
+
+}
+
+.green, .red {
+    vertical-align: middle;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.green {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    
+}
+.red {
+    color: lightcoral;
+    border: 1px solid lightcoral;
+}
+
+.tag {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+/*  BOX TAG COLORATI */
+.editorial {background-color: rgb(68, 171, 235);}
+
+.goals {background-color: rgb(157, 115, 230);}
+
+.recruiting {background-color: rgb(99, 191, 168);}
+
+.mobile {background-color: rgb(242, 159, 63);}
