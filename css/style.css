@@ -2,12 +2,12 @@
 * {box-sizing: border-box; margin: 0; padding: 0;}
 img {max-width: 100%;height: auto;}
 body {background-color: rgb(220, 231, 236); font-family: Verdana, Geneva, Tahoma, sans-serif;}
-.container {width: 1160px; margin: 0 auto;}
+
 .divider {padding: 25px 0;}
 .spacer {padding: 75px 0;}
 
 /* -------------------------
-            header
+        header
 -------------------------- */
 
 .logo {
@@ -27,3 +27,49 @@ img {
 }
 
 img, .text-logo {vertical-align: middle;}
+
+/* -------------------------
+        MAIN • BOTTONI
+-------------------------- */
+.button.container {
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.container {
+    width: 900px; 
+    margin: 0 auto; 
+    background-color: white;
+}
+
+.add-task a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+.add-section a {
+    color: rgb(201, 206, 212);
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.add-task, .add-section {
+    height: 70%;
+    margin: 15px 0;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.add-task {
+    border: 2px solid rgb(70, 173, 242);
+    margin-left: 30px;
+    background-color: rgb(70, 173, 242);
+    color: white;
+}
+
+.add-section {
+    margin-left: 10px;
+    color: rgb(201, 206, 212);
+    border: 2px solid rgb(201, 206, 212);
+}
